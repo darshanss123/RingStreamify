@@ -1,0 +1,73 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #504c4c;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+      background-color: chartreuse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .table-container{
+      padding: 10px 50px 50px;
+      width: 80vw;
+      display: block;
+      margin: auto;
+      background-color: rgba(64, 240, 117, 0.582);
+      border-radius: 30px;
+  }
+  .table-title{
+      float: left;
+  }
+  .add{
+      float: right;
+      background-color: green;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      border: white solid 1px;
+      border-radius: 20px;
+      margin: 5px;
+  }
+  .add:hover{
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .delete{
+      background-color: red;
+      color: white;
+      border: rgb(255, 255, 255) solid 1px;
+      border-radius: 20px;
+      padding: 3px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.705);
+  }
+  .delete:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+  }
+   
+  .logout{
+    float: right;
+    position: fixed;
+    top: 28px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.048);
+    color: white;
+    font-weight: bold;
+    border: white solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.logout:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+}
+.logo{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.692);
+}
